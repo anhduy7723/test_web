@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: fixed;
+    background-color: transparent;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    /* border-bottom: 2px solid #017143; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 500;
+    margin-left: 40px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+/* MENU */
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+.menus {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px dashed #e6e6e6;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.menus:hover {
+    border-color: #017143;
+}
+.heading-menu h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+.menu-wrap {
+    margin-bottom: 3em;
+    padding: 3em 1.5em 0.5em 1.5em;
+    border: 1.5px dashed #e6e6e6;
+    position: relative;
+    background: #fcfcfc;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.menu-wrap:hover {
+    border-color: #017143;
+}
+.menus .menu-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.hotel-img, .img, .blog-img, .user-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menus .text .one-half h3 {
+    font-size: 17px;
+    font-weight: 500;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.menus .text {
+    width: calc(100% - 80px);
+    padding-left: 20px;
+}
+.menus:hover .text h3 {
+    color: #017143;
+}
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.menus .text .one-forth {
+    width: 70px;
+    text-align: right;
+}
+.menus .text .one-forth .price {
+    font-size: 20px;
+    color: #017143;
+    font-weight: 600;
+    line-height: 1.3;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.menus .text .one-half {
+    width: calc(100% - 70px);
+}
+.menus .text .one-half h3 {
+    font-size: 17px;
+    font-weight: 500;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.heading-section .subheading {
+    font-weight: normal;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #017143;
+    position: relative;
+    line-height: 1;
+    font-family: "Dancing Script", cursive;
+}
+.heading-section h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+
+/* FOTTER */
+footer{
+    padding: 32px 0px 0px;
+    background-color: #017143;
+    border-top: 10px solid #017143; 
+}
+.footer__top h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.footer__top p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 2em;
+    margin-bottom: 2rem;
+    letter-spacing: 1px; 
+}
+
+.footer__link, .footer__contact{
+    margin-bottom: 1rem;
+}
+
+.footer__link i{
+    color:#fff ;
+    margin-right: 1rem;
+}
+
+.footer__link a, .footer__contact a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5rem;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.footer__link a:hover, .footer__contact a:hover{
+    color: #08ca79;
+}
+
+.footer__contact i{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 1rem;
+    text-align: center;
+    line-height: 32px;
+}
+
+.footer__form{
+    margin-top: 3rem;
+}
+
+.footer__form label{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer__form input{
+    padding: 14px;
+    border-radius: 0;
+    border: none;
+    color: #333;
+    letter-spacing: 1px;
+    height: auto;
+}
+
+.footer__form button{
+    background-color: #fff;
+    padding: 12px 35px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #333;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.footer__form button:hover{
+    background-color: #08ca79;
+    color: fff;
+}
+
+.footer__bottom{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+    color: #333;
+    font-weight: 600;
+}
+
+.footer__bottom a{
+    text-decoration: none;
+    color: #017143;
+    transition: all 0.5s;
+}
+
+.footer__bottom a:hover{
+    color: white;
+}
